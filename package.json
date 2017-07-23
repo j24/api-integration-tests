@@ -1,0 +1,32 @@
+{
+  "name": "@j24/api-integration-tests",
+  "version": "1.0.0",
+  "bin": {
+    "api-test": "./index.js"
+  },
+  "description": "Integration tests for the James24 APIs",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "args": "^3.0.4",
+    "eslint": "^3.19.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "documentation": "^4.0.0-rc.1",
+    "mocha": "^3.2.0",
+    "mockery": "^2.0.0",
+    "sinon": "^2.1.0",
+    "sinon-chai": "^2.9.0"
+  },
+  "scripts": {
+    "docs": "documentation readme --section=Docs",
+    "lint": "eslint .",
+    "start": "node ./index.js",
+    "test": "find . -name *.spec.js -not -path './node_modules/*' | xargs node ./node_modules/.bin/mocha"
+  },
+  "repository": "git@github.com:j24/api-integration-tests.git",
+  "author": "Maiko Kuppe <maiko.kuppe@james24.com>",
+  "license": "UNLICENSED"
+}
