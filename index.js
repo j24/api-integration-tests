@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const args = require('args')
-const test = require('./lib/test')
+const main = require('./lib/main')
 
 args
   .option('domain', 'The API host domain to use', 'www.james24apis.com')
@@ -11,4 +11,4 @@ args
 
 const flags = args.parse(process.argv)
 
-test(flags)
+main(flags)
