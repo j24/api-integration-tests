@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "args": "^3.0.4",
+    "crypto-extra": "^0.4.0",
     "eslint": "^3.19.0",
     "glob": "^7.1.2",
     "lodash.mergewith": "^4.6.0",
