@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-match-pattern": "^1.1.0",
     "documentation": "^4.0.0-rc.1",
     "mocha": "^3.2.0",
     "mockery": "^2.1.0",
